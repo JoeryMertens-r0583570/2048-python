@@ -368,6 +368,7 @@ def handle_key_press(board, score, direction):
             matrix.append(reduce(result[0]))
         matrix=mirror(matrix)
         print(matrix)
+    matrix=insert_new(matrix,1,2)
     return ( matrix, score ) # Complete me
 
 
