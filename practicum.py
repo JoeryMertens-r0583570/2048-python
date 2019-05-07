@@ -94,7 +94,8 @@ def match(row):
             while row[j+1]== None:
                 if j+1<len(row)-1:
                     j+=1
-                break
+                else:
+                    break
             if j+1<len(row):
                 j+=1
             if row [i] == row [j]:
